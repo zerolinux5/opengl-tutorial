@@ -10,35 +10,10 @@
 #import <QuartzCore/QuartzCore.h>
 
 @implementation AppDelegate {
-    float _curRed;
-    BOOL _increasing;
 }
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
-    self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
-    
-    EAGLContext * context = [[EAGLContext alloc] initWithAPI:kEAGLRenderingAPIOpenGLES2];
-    GLKView *view = [[GLKView alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
-    view.context = context;
-    view.delegate = self;
-    //[self.window addSubview:view];
-    
-    _increasing = YES;
-    _curRed = 0.0;
-    
-    //view.enableSetNeedsDisplay = NO;
-    //CADisplayLink* displayLink = [CADisplayLink displayLinkWithTarget:self selector:@selector(render:)];
-    //[displayLink addToRunLoop:[NSRunLoop currentRunLoop] forMode:NSDefaultRunLoopMode];
-    
-    GLKViewController * viewController = [[GLKViewController alloc] initWithNibName:nil bundle:nil]; // 1
-    viewController.view = view; // 2
-    viewController.delegate = self; // 3
-    viewController.preferredFramesPerSecond = 60; // 4
-    self.window.rootViewController = viewController; // 5
-    
-    self.window.backgroundColor = [UIColor whiteColor];
-    [self.window makeKeyAndVisible];
     return YES;
 }
 
@@ -75,33 +50,6 @@
     [view display];
 }
 */
-
-#pragma mark - GLKViewDelegate
-
-- (void)glkView:(GLKView *)view drawInRect:(CGRect)rect {
-    
-    glClearColor(_curRed, 0.0, 0.0, 1.0);
-    glClear(GL_COLOR_BUFFER_BIT);
-    
-}
-
-#pragma mark - GLKViewControllerDelegate
-
-- (void)glkViewControllerUpdate:(GLKViewController *)controller {
-    if (_increasing) {
-        _curRed += 1.0 * controller.timeSinceLastUpdate;
-    } else {
-        _curRed -= 1.0 * controller.timeSinceLastUpdate;
-    }
-    if (_curRed >= 1.0) {
-        _curRed = 1.0;
-        _increasing = NO;
-    }
-    if (_curRed <= 0.0) {
-        _curRed = 0.0;
-        _increasing = YES;
-    }
-}
 
 
 @end

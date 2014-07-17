@@ -22,6 +22,8 @@
 		EAC07904197779DD006DBADE /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EAC07903197779DD006DBADE /* QuartzCore.framework */; };
 		EAC07906197779E8006DBADE /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EAC07905197779E8006DBADE /* OpenGLES.framework */; };
 		EAC07908197779F4006DBADE /* GLKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EAC07907197779F4006DBADE /* GLKit.framework */; };
+		EAC0790B19778018006DBADE /* HelloGLKitViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EAC0790A19778018006DBADE /* HelloGLKitViewController.m */; };
+		EAC0790F1977816D006DBADE /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EAC0790E1977816D006DBADE /* MainStoryboard.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +56,9 @@
 		EAC07903197779DD006DBADE /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 		EAC07905197779E8006DBADE /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
 		EAC07907197779F4006DBADE /* GLKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GLKit.framework; path = System/Library/Frameworks/GLKit.framework; sourceTree = SDKROOT; };
+		EAC0790919778018006DBADE /* HelloGLKitViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HelloGLKitViewController.h; sourceTree = "<group>"; };
+		EAC0790A19778018006DBADE /* HelloGLKitViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HelloGLKitViewController.m; sourceTree = "<group>"; };
+		EAC0790E1977816D006DBADE /* MainStoryboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = MainStoryboard.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -123,6 +128,9 @@
 				EAC078E419777975006DBADE /* AppDelegate.m */,
 				EAC078E619777975006DBADE /* Images.xcassets */,
 				EAC078DB19777975006DBADE /* Supporting Files */,
+				EAC0790919778018006DBADE /* HelloGLKitViewController.h */,
+				EAC0790A19778018006DBADE /* HelloGLKitViewController.m */,
+				EAC0790E1977816D006DBADE /* MainStoryboard.storyboard */,
 			);
 			path = HelloGLKit;
 			sourceTree = "<group>";
@@ -231,6 +239,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EAC0790F1977816D006DBADE /* MainStoryboard.storyboard in Resources */,
 				EAC078DF19777975006DBADE /* InfoPlist.strings in Resources */,
 				EAC078E719777975006DBADE /* Images.xcassets in Resources */,
 			);
@@ -251,6 +260,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EAC0790B19778018006DBADE /* HelloGLKitViewController.m in Sources */,
 				EAC078E519777975006DBADE /* AppDelegate.m in Sources */,
 				EAC078E119777975006DBADE /* main.m in Sources */,
 			);
