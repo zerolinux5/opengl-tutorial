@@ -86,6 +86,15 @@
     }
 }
 
+- (void)touchesBegan:(NSSet *)touches withEvent:(UIEvent *)event {
+    NSLog(@"timeSinceLastUpdate: %f", self.timeSinceLastUpdate);
+    NSLog(@"timeSinceLastDraw: %f", self.timeSinceLastDraw);
+    NSLog(@"timeSinceFirstResume: %f", self.timeSinceFirstResume);
+    NSLog(@"timeSinceLastResume: %f", self.timeSinceLastResume);
+    
+    self.paused = !self.paused;
+}
+
 /*
 #pragma mark - Navigation
 
