@@ -1,0 +1,452 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EAC078D519777975006DBADE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EAC078D419777975006DBADE /* Foundation.framework */; };
+		EAC078D719777975006DBADE /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EAC078D619777975006DBADE /* CoreGraphics.framework */; };
+		EAC078D919777975006DBADE /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EAC078D819777975006DBADE /* UIKit.framework */; };
+		EAC078DF19777975006DBADE /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = EAC078DD19777975006DBADE /* InfoPlist.strings */; };
+		EAC078E119777975006DBADE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EAC078E019777975006DBADE /* main.m */; };
+		EAC078E519777975006DBADE /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EAC078E419777975006DBADE /* AppDelegate.m */; };
+		EAC078E719777975006DBADE /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EAC078E619777975006DBADE /* Images.xcassets */; };
+		EAC078EE19777975006DBADE /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EAC078ED19777975006DBADE /* XCTest.framework */; };
+		EAC078EF19777975006DBADE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EAC078D419777975006DBADE /* Foundation.framework */; };
+		EAC078F019777975006DBADE /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EAC078D819777975006DBADE /* UIKit.framework */; };
+		EAC078F819777975006DBADE /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = EAC078F619777975006DBADE /* InfoPlist.strings */; };
+		EAC078FA19777975006DBADE /* HelloGLKitTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EAC078F919777975006DBADE /* HelloGLKitTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EAC078F119777975006DBADE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EAC078C919777975006DBADE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EAC078D019777975006DBADE;
+			remoteInfo = HelloGLKit;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EAC078D119777975006DBADE /* HelloGLKit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HelloGLKit.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EAC078D419777975006DBADE /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		EAC078D619777975006DBADE /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		EAC078D819777975006DBADE /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		EAC078DC19777975006DBADE /* HelloGLKit-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "HelloGLKit-Info.plist"; sourceTree = "<group>"; };
+		EAC078DE19777975006DBADE /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		EAC078E019777975006DBADE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		EAC078E219777975006DBADE /* HelloGLKit-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "HelloGLKit-Prefix.pch"; sourceTree = "<group>"; };
+		EAC078E319777975006DBADE /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		EAC078E419777975006DBADE /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		EAC078E619777975006DBADE /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		EAC078EC19777975006DBADE /* HelloGLKitTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HelloGLKitTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EAC078ED19777975006DBADE /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		EAC078F519777975006DBADE /* HelloGLKitTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "HelloGLKitTests-Info.plist"; sourceTree = "<group>"; };
+		EAC078F719777975006DBADE /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		EAC078F919777975006DBADE /* HelloGLKitTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HelloGLKitTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EAC078CE19777975006DBADE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EAC078D719777975006DBADE /* CoreGraphics.framework in Frameworks */,
+				EAC078D919777975006DBADE /* UIKit.framework in Frameworks */,
+				EAC078D519777975006DBADE /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EAC078E919777975006DBADE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EAC078EE19777975006DBADE /* XCTest.framework in Frameworks */,
+				EAC078F019777975006DBADE /* UIKit.framework in Frameworks */,
+				EAC078EF19777975006DBADE /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EAC078C819777975006DBADE = {
+			isa = PBXGroup;
+			children = (
+				EAC078DA19777975006DBADE /* HelloGLKit */,
+				EAC078F319777975006DBADE /* HelloGLKitTests */,
+				EAC078D319777975006DBADE /* Frameworks */,
+				EAC078D219777975006DBADE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EAC078D219777975006DBADE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EAC078D119777975006DBADE /* HelloGLKit.app */,
+				EAC078EC19777975006DBADE /* HelloGLKitTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EAC078D319777975006DBADE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EAC078D419777975006DBADE /* Foundation.framework */,
+				EAC078D619777975006DBADE /* CoreGraphics.framework */,
+				EAC078D819777975006DBADE /* UIKit.framework */,
+				EAC078ED19777975006DBADE /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EAC078DA19777975006DBADE /* HelloGLKit */ = {
+			isa = PBXGroup;
+			children = (
+				EAC078E319777975006DBADE /* AppDelegate.h */,
+				EAC078E419777975006DBADE /* AppDelegate.m */,
+				EAC078E619777975006DBADE /* Images.xcassets */,
+				EAC078DB19777975006DBADE /* Supporting Files */,
+			);
+			path = HelloGLKit;
+			sourceTree = "<group>";
+		};
+		EAC078DB19777975006DBADE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EAC078DC19777975006DBADE /* HelloGLKit-Info.plist */,
+				EAC078DD19777975006DBADE /* InfoPlist.strings */,
+				EAC078E019777975006DBADE /* main.m */,
+				EAC078E219777975006DBADE /* HelloGLKit-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		EAC078F319777975006DBADE /* HelloGLKitTests */ = {
+			isa = PBXGroup;
+			children = (
+				EAC078F919777975006DBADE /* HelloGLKitTests.m */,
+				EAC078F419777975006DBADE /* Supporting Files */,
+			);
+			path = HelloGLKitTests;
+			sourceTree = "<group>";
+		};
+		EAC078F419777975006DBADE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EAC078F519777975006DBADE /* HelloGLKitTests-Info.plist */,
+				EAC078F619777975006DBADE /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EAC078D019777975006DBADE /* HelloGLKit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EAC078FD19777975006DBADE /* Build configuration list for PBXNativeTarget "HelloGLKit" */;
+			buildPhases = (
+				EAC078CD19777975006DBADE /* Sources */,
+				EAC078CE19777975006DBADE /* Frameworks */,
+				EAC078CF19777975006DBADE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HelloGLKit;
+			productName = HelloGLKit;
+			productReference = EAC078D119777975006DBADE /* HelloGLKit.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EAC078EB19777975006DBADE /* HelloGLKitTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EAC0790019777975006DBADE /* Build configuration list for PBXNativeTarget "HelloGLKitTests" */;
+			buildPhases = (
+				EAC078E819777975006DBADE /* Sources */,
+				EAC078E919777975006DBADE /* Frameworks */,
+				EAC078EA19777975006DBADE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EAC078F219777975006DBADE /* PBXTargetDependency */,
+			);
+			name = HelloGLKitTests;
+			productName = HelloGLKitTests;
+			productReference = EAC078EC19777975006DBADE /* HelloGLKitTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EAC078C919777975006DBADE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = ZeroLinux5;
+				TargetAttributes = {
+					EAC078EB19777975006DBADE = {
+						TestTargetID = EAC078D019777975006DBADE;
+					};
+				};
+			};
+			buildConfigurationList = EAC078CC19777975006DBADE /* Build configuration list for PBXProject "HelloGLKit" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = EAC078C819777975006DBADE;
+			productRefGroup = EAC078D219777975006DBADE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EAC078D019777975006DBADE /* HelloGLKit */,
+				EAC078EB19777975006DBADE /* HelloGLKitTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EAC078CF19777975006DBADE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EAC078DF19777975006DBADE /* InfoPlist.strings in Resources */,
+				EAC078E719777975006DBADE /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EAC078EA19777975006DBADE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EAC078F819777975006DBADE /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EAC078CD19777975006DBADE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EAC078E519777975006DBADE /* AppDelegate.m in Sources */,
+				EAC078E119777975006DBADE /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EAC078E819777975006DBADE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EAC078FA19777975006DBADE /* HelloGLKitTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EAC078F219777975006DBADE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EAC078D019777975006DBADE /* HelloGLKit */;
+			targetProxy = EAC078F119777975006DBADE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EAC078DD19777975006DBADE /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EAC078DE19777975006DBADE /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		EAC078F619777975006DBADE /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EAC078F719777975006DBADE /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EAC078FB19777975006DBADE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		EAC078FC19777975006DBADE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EAC078FE19777975006DBADE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "HelloGLKit/HelloGLKit-Prefix.pch";
+				INFOPLIST_FILE = "HelloGLKit/HelloGLKit-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		EAC078FF19777975006DBADE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "HelloGLKit/HelloGLKit-Prefix.pch";
+				INFOPLIST_FILE = "HelloGLKit/HelloGLKit-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		EAC0790119777975006DBADE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/HelloGLKit.app/HelloGLKit";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "HelloGLKit/HelloGLKit-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "HelloGLKitTests/HelloGLKitTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		EAC0790219777975006DBADE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/HelloGLKit.app/HelloGLKit";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "HelloGLKit/HelloGLKit-Prefix.pch";
+				INFOPLIST_FILE = "HelloGLKitTests/HelloGLKitTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EAC078CC19777975006DBADE /* Build configuration list for PBXProject "HelloGLKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EAC078FB19777975006DBADE /* Debug */,
+				EAC078FC19777975006DBADE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EAC078FD19777975006DBADE /* Build configuration list for PBXNativeTarget "HelloGLKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EAC078FE19777975006DBADE /* Debug */,
+				EAC078FF19777975006DBADE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		EAC0790019777975006DBADE /* Build configuration list for PBXNativeTarget "HelloGLKitTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EAC0790119777975006DBADE /* Debug */,
+				EAC0790219777975006DBADE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EAC078C919777975006DBADE /* Project object */;
+}
